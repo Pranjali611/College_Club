@@ -1,0 +1,131 @@
+.club p {
+    text-align: center;
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 120px 0 5px;
+    font-family: "Arial";
+    letter-spacing: 0.5px;
+  }
+
+  .club h1 {
+    font-size: 17px;
+    text-align: center;
+    color: grey;
+    margin: 2px 0 70px;
+    font-weight: normal;
+  }
+
+  .slider {
+    margin: 50px auto;
+    padding: 0 20px;
+    position: relative;
+    max-width: 1400px;
+    overflow: hidden;
+  }
+
+  .next-btn,
+  .back-btn {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #53236b;
+    color: #fff;
+    border: none;
+    z-index: 10;
+  }
+
+  .next-btn {
+    left: 10px;
+  }
+
+  .back-btn {
+    right: 10px;
+  }
+
+  .clubslider {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .clubslider ul {
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 0;
+    margin: 0;
+  }
+
+  .clubslider ul li {
+    list-style: none;
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .slide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+  }
+
+  .user-info{
+    gap: 50px;
+  }
+
+  .user-info img {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .user-info h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #53236b;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+  }
+
+  .user-info span {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: normal;
+    font-family: "Outfit", sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    .clubslider ul li {
+      flex: 0 0 50%;
+    }
+
+    .next-btn,
+    .back-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .clubslider ul li {
+      flex: 0 0 50%;
+    }
+  }

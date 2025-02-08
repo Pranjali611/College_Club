@@ -1,0 +1,16 @@
+.sub p{
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 120px 0 3px;
+    font-family: "Arial";
+    letter-spacing: 0.5px;
+}
+.sub h1{
+    font-size: 17px;
+    text-align: center;
+    color: grey;
+    margin: 2px 0 70px;
+    font-weight: normal;
+}
